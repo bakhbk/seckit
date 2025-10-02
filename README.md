@@ -25,7 +25,7 @@ Secure cryptographic utilities for Dart: JWT authentication, field encryption wi
 
 ```yaml
 dependencies:
-  seckit: ^1.0.2
+  seckit: ^1.0.0
 ```
 
 ```bash
@@ -129,17 +129,11 @@ final config = Config(
 
 3. **Rate Limiting**: Implement at app level (5 password attempts/min, 100 JWT validations/min)
 
-## Breaking Changes in v1.0.2
-
-⚠️ `FieldEncryptor` format changed - HMAC authentication added.  
-Old v1.0.1 encrypted data won't decrypt. See [CHANGELOG.md](CHANGELOG.md) for migration.
-
 ## Documentation
 
-- 📖 [SECURITY.md](SECURITY.md) - Security features & best practices
-- 📋 [CHANGELOG.md](CHANGELOG.md) - Version history
-- 🔍 [FINAL_SECURITY_REPORT.md](FINAL_SECURITY_REPORT.md) - Complete audit
-- 💡 [example/main.dart](example/main.dart) - Full working examples
+-  [CHANGELOG.md](CHANGELOG.md) - Version history
+-  [example/main.dart](example/main.dart) - Full working examples
+- 🛠️ [scripts/README.md](scripts/README.md) - Development scripts
 
 ```bash
 dart run example/main.dart
@@ -151,4 +145,4 @@ MIT License - see [LICENSE](LICENSE) for details.
 
 ---
 
-**Version**: 1.0.2 | **Status**: ✅ Production Ready | **Security**: Audited & Hardened
+**Version**: 1.0.0 | **Status**: ✅ Production Ready | **Security**: Secure by Design
