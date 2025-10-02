@@ -24,12 +24,7 @@ Secure cryptographic utilities for Dart: JWT authentication, field encryption wi
 ## Installation
 
 ```yaml
-dependencies:
-  seckit: ^1.0.0
-```
-
-```bash
-dart pub get
+dart pub add seckit
 ```
 
 ## Quick Start
@@ -142,7 +137,3 @@ dart run example/main.dart
 ## License
 
 MIT License - see [LICENSE](LICENSE) for details.
-
----
-
-**Version**: 1.0.0 | **Status**: ✅ Production Ready | **Security**: Secure by Design
