@@ -21,12 +21,6 @@ Secure cryptographic utilities for Dart: JWT authentication, field encryption wi
 ✅ No information leakage in errors  
 ✅ Audited & production-ready
 
-## Installation
-
-```yaml
-dart pub add seckit
-```
-
 ## Quick Start
 
 ### 1. JWT Authentication

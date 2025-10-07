@@ -1,32 +1,32 @@
 # Scripts
 
-Простые скрипты для разработки и релиза.
+Simple scripts for development and release.
 
-## dev.sh - Инструменты разработки
-
-```bash
-./scripts/dev.sh test      # Запустить тесты
-./scripts/dev.sh format    # Форматировать код
-./scripts/dev.sh analyze   # Анализ кода
-./scripts/dev.sh check     # Всё сразу (format + analyze + test)
-./scripts/dev.sh deps      # Обновить зависимости
-./scripts/dev.sh changelog # Предпросмотр changelog
-./scripts/dev.sh coverage  # Тесты с покрытием
-```
-
-## release.sh - Релиз пакета
+## dev.sh - Development Tools
 
 ```bash
-./scripts/release.sh 1.0.1          # Подготовить релиз
-./scripts/release.sh 1.0.1 --publish # Подготовить и опубликовать
+./scripts/dev.sh test      # Run tests
+./scripts/dev.sh format    # Format code
+./scripts/dev.sh analyze   # Analyze code
+./scripts/dev.sh check     # All at once (format + analyze + test)
+./scripts/dev.sh deps      # Update dependencies
+./scripts/dev.sh changelog # Preview changelog
+./scripts/dev.sh coverage  # Tests with coverage
 ```
 
-Что делает:
+## release.sh - Package Release
 
-1. Проверяет тесты, форматирование, анализ
-2. Обновляет версию в pubspec.yaml
-3. Создаёт git тег
-4. Генерирует changelog
-5. Коммитит изменения
-6. Валидирует пакет
-7. Публикует (если --publish)
+```bash
+./scripts/release.sh 1.0.1          # Prepare release
+./scripts/release.sh 1.0.1 --publish # Prepare and publish
+```
+
+What it does:
+
+1. Checks tests, formatting, analysis
+2. Updates version in pubspec.yaml
+3. Creates git tag
+4. Generates changelog
+5. Commits changes
+6. Validates package
+7. Publishes (if --publish)

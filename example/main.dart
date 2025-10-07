@@ -5,7 +5,7 @@ import 'package:seckit/seckit.dart';
 
 /// Complete example demonstrating all seckit features with security best practices.
 void main() {
-  print('=== Seckit Package Demo v1.0.0 ===\n');
+  print('=== Seckit Package Demo ===\n');
 
   // 🔑 Configuration (use environment variables in production!)
   final config = _createConfig();
