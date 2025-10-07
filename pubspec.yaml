@@ -1,6 +1,6 @@
 name: seckit
 description: Secure cryptographic utilities for Dart JWT authentication, field encryption, password hashing, and deterministic hashing.
-version: 1.0.2
+version: 1.0.3
 homepage: https://github.com/bakhbk/seckit
 repository: https://github.com/bakhbk/seckit
 issue_tracker: https://github.com/bakhbk/seckit/issues

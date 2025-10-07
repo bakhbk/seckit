@@ -1,5 +1,14 @@
 # Changelog
 All notable changes to this project will be documented in this file.
+## [1.0.3] - 2025-10-07
+
+### Miscellaneous Tasks
+
+- Update async_lite to 0.0.7
+
+### Release
+
+- V1.0.2
 ## [1.0.2] - 2025-10-02
 
 ### Documentation
