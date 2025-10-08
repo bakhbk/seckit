@@ -6,7 +6,7 @@ repository: https://github.com/bakhbk/seckit
 issue_tracker: https://github.com/bakhbk/seckit/issues
 
 environment:
-  sdk: "^3.0.0"
+  sdk: "^3.2.0"
 
 platforms:
   android:
