@@ -1,5 +1,5 @@
 /// Secure cryptographic utilities for Dart
-library seckit;
+library;
 
 export 'config.dart';
 export 'deterministic_hasher.dart';

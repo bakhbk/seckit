@@ -6,6 +6,5 @@
 .fvm/
 
 # Pub package configuration
-pubspec.lock
 coverage
 .vscode/settings.json
