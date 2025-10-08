@@ -8,3 +8,4 @@
 # Pub package configuration
 coverage
 .vscode/settings.json
+build/
