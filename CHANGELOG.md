@@ -1,5 +1,21 @@
 # Changelog
 All notable changes to this project will be documented in this file.
+## [1.0.5] - 2025-10-08
+
+### Fixed
+
+- Use correct Dart SDK versions
+- Update minimum Dart SDK to 3.2.0 for test package compatibility
+- Update minimum Dart SDK
+
+### Miscellaneous Tasks
+
+- Update SDK on github actions
+- Track pubspec.lock and fix library declaration
+
+### Release
+
+- V1.0.4
 ## [1.0.4] - 2025-10-08
 
 ### Miscellaneous Tasks
