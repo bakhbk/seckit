@@ -8,6 +8,14 @@ issue_tracker: https://github.com/bakhbk/seckit/issues
 environment:
   sdk: ">=2.18.0 <4.0.0"
 
+platforms:
+  android:
+  ios:
+  linux:
+  macos:
+  web:
+  windows:
+
 # Add regular dependencies here.
 dependencies:
   path: ^1.9.1

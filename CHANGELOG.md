@@ -1,28 +1,24 @@
 # Changelog
+
 All notable changes to this project will be documented in this file.
+
 ## [1.0.3] - 2025-10-07
 
-### Miscellaneous Tasks
-
-- Update async_lite to 0.0.7
-
-### Release
-
-- V1.0.2
+### Changed
+- Updated async_lite dependency to 0.0.7
+- Translated scripts documentation to English
+- Improved example formatting
 ## [1.0.2] - 2025-10-02
 
 ### Documentation
+- Updated README
+- Improved documentation structure
 
-- Update README for version 1.0.1
-
-### Release
-
-- V1.0.1
 ## [1.0.1] - 2025-10-02
 
-### Release
-
-- V1.0.0
+### Fixed
+- Fixed pubspec.yaml configuration
+- Updated README references
 ## [1.0.0] - 2025-10-02
 
 ### Added
